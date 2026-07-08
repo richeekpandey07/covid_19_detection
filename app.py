@@ -17,7 +17,7 @@ st.set_page_config(
 # -----------------------------
 @st.cache_resource
 def load_covid_model():
-    return tf.keras.models.load_model("covid_model.keras")
+    return tf.keras.models.load_model("model.keras")
 
 model = load_covid_model()
 

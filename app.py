@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import tensorflow as tf
 import numpy as np
@@ -29,7 +28,7 @@ h1, h2, h3 {
 }
 
 p, label, div {
-    color: white;
+    color: blue;
 }
 
 .result-box {
@@ -247,4 +246,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-```
+

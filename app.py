@@ -86,18 +86,13 @@
 
 #     💻 GitHub: https://github.com/richeekpandey07
 #     """
-# )st.markdown("""
+st.markdown("""
 <style>
-
-/* Background */
 .stApp{
-    background: linear-gradient(
-        135deg,
-        #0f172a,
-        #1e293b,
-        #0f172a
-    );
+    background-color:#0f172a;
 }
+</style>
+""", unsafe_allow_html=True)
 
 /* Main Title */
 .main-title{

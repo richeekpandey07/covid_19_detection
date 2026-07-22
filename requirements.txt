@@ -3,5 +3,3 @@ tensorflow
 numpy
 pandas
 pillow
-requests
-streamlit-lottie

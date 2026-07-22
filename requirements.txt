@@ -1,4 +1,7 @@
-streamlit==1.47.1
-tensorflow-cpu==2.16.1
-numpy==1.26.4
-pillow==10.4.0
+streamlit
+tensorflow
+numpy
+pandas
+pillow
+requests
+streamlit-lottie

@@ -37,7 +37,7 @@ p, label, div {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: red;
 }
 
 .footer {

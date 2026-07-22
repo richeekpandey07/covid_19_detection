@@ -85,14 +85,12 @@
 #     🔗 LinkedIn: www.linkedin.com/in/richeek-pandey-2604a3335
 
 #     💻 GitHub: https://github.com/richeekpandey07
-#     """
 st.markdown("""
 <style>
+
 .stApp{
     background-color:#0f172a;
 }
-</style>
-""", unsafe_allow_html=True)
 
 /* Main Title */
 .main-title{
@@ -118,7 +116,6 @@ st.markdown("""
     box-shadow:0 8px 32px rgba(0,0,0,0.3);
 }
 
-/* Result Card */
 .result-card{
     border-radius:20px;
     padding:20px;
@@ -127,6 +124,18 @@ st.markdown("""
     font-weight:bold;
     color:white;
 }
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+.stButton>button{
+    width:100%;
+    border-radius:12px;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 /* Sidebar */
 section[data-testid="stSidebar"]{
